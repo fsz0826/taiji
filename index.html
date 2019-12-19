@@ -118,39 +118,40 @@
                 top: 37.5px;
                 margin-left: -12.5px;
             }
+        }
 
+        #八卦>div:nth-child(6) {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 50%;
+            bottom: 75px;
+            margin-left: -25px;
+            border-radius: 50%;
+            background: black;
+        }
+
+        @media(max-width: 500px) {
             #八卦>div:nth-child(6) {
-                position: absolute;
-                width: 50px;
-                height: 50px;
-                left: 50%;
-                bottom: 75px;
-                margin-left: -25px;
-                border-radius: 50%;
-                background: black;
+                width: 25px;
+                height: 25px;
+                bottom: 37.5px;
+                margin-left: -12.5px;
             }
+        }
 
-            @media(max-width: 500px) {
-                #八卦>div:nth-child(6) {
-                    width: 25px;
-                    height: 25px;
-                    bottom: 37.5px;
-                    margin-left: -12.5px;
-                }
-            }
+        #八卦-wrapper {
+            height: 100vh;
+            /* viewpoint height*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-            #八卦-wrapper {
-                height: 100vh;
-                /* viewpoint height*/
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-
-            #八卦-描述 {
-                margin-top: 1em;
-            }
+        #八卦-描述 {
+            margin-top: 1em;
+        }
     </style>
 </head>
 
